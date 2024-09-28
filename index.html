@@ -11,6 +11,8 @@
  
   <link href="//fonts.googleapis.com/css2?family=Jost:wght@300;400;600&display=sw ap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="assets/images/myphoto.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
   <link rel="stylesheet" href="assets/css/style-starter.css">
 </head>
@@ -60,34 +62,6 @@
   </div>
 </header>
   <div class="container">
-      <nav class="navbar navbar-expand-lg stroke">
-        <img src="css.jpg" style="width: 50px;">
-        <a class="navbar-brand" href="index.html">
-              Arjun A 
-          </a>
-
-          <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-              data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-              <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-              </span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active">
-                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item @@about__active">
-                      <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item @@contact__active">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-              </ul>
-          </div>
-          <!-- toggle switch for light and dark theme -->
           <div class="mobile-position">
               <nav class="navigation">
                   <div class="theme-switch-wrapper">
@@ -181,64 +155,71 @@
             <div class="row">
                 <div class="col-md-12 mx-auto pr-2">
                     <div class="owl-two owl-carousel owl-theme">
-                        <div class="item">
-                            <div class="card">
-                                <div class="box-wrap">
-                                    <div class="icon">
-                                        <span class="fa fa-pencil-square-o"></span>
-                                    </div>
-                                    <h4 class="number">01</h4>
-                                    <h4><a href="#url">A Simple Calculator</a></h4>
-                                    <p>A basic calculator built using Java, demonstrating fundamental programming concepts and functionality.</p>
-                                    <a href="#read" class="read">Read more</a>
-                                </div>
+                        
+                      <div class="item">
+                        <div class="card project-card">
+                            <div class="box-wrap">
+                              <img width="50" height="50" src="https://img.icons8.com/pulsar-color/50/calculator.png" alt="calculator"/>
+                            <h4 class="number">01</h4>
+                            <h4><a href="#url">A Simple Calculator</a></h4>
+                            <p>Created a basic calculator in Java for quick calculations</p>
                             </div>
                         </div>
-
+                    </div>
+                      
                         <div class="item">
-                            <div class="card">
+                          <div class="card project-card">
                                 <div class="box-wrap">
-                                    <div class="icon">
-                                      <span class="fa fa-laptop"></span>
-                                    </div>
+                                  <img width="56" height="56" src="https://img.icons8.com/3d-fluency/100/facebook-logo.png" alt="facebook-logo"/>
                                     <h4 class="number">02</h4>
-                                    <h4><a href="#url">Facebook Login Page Front End</a></h4>
-                                    <p>Designed a front-end login page for Facebook using HTML and CSS, focusing on user interface and design principles.</p>
-                                      <a href="#read" class="read">Read more</a>
+                                    <h4><a href="https://aarjjun.github.io/Facebook-LogIn_page-clone/">Facebook Login Page Front End</a></h4>
+                                    <p>Designed a front-end login page for Facebook</p>
+                                     
                                   </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="card">
+                          <div class="card project-card">
                                 <div class="box-wrap">
-                                    <div class="icon">
-                                      <span class="fa fa-area-chart"></span>
-                                    </div>
+                                  <img width="64" height="64" src="https://img.icons8.com/nolan/64/calculator--v1.png" alt="calculator--v1"/>
                                     <h4 class="number">03</h4>
-                                    <h4><a href="#url">Web Calculator</a></h4>
-                                    <p>Created a web-based calculator using HTML, CSS, and Java, showcasing my skills in front-end development and integrating Java for functionality.</p>
-                                      <a href="#read" class="read">Read more</a>
+                                    <h4><a href="https://aarjjun.github.io/simple-calculator/">Web Calculator</a></h4>
+                                    <p>Created a web-based calculator using HTML,CSS,JS</p>
+                                     
                                   </div>
                             </div>
                         </div>
 
                         <div class="item">
-                            <div class="card">
-                                <div class="box-wrap">
-                                    <div class="icon">
-                                        <span class="fa fa-pencil-square-o"></span>
-                                    </div>
-                                    <h4 class="number">04</h4>
-                                    <h4><a href="#url">Many More to Come</a></h4>
-                                    <p>.............</p>
-                                    <a href="#read" class="read">Read more</a>
+                          <div class="card project-card">
+                              <div class="box-wrap">
+                                  <div class="icon" style="height: max-content;;">
+                                    <a href="https://www.linkedin.com/posts/arjunanoop_react-webdevelopment-frontend-activity-7221169493404737536-cg8E?utm_source=share&utm_medium=member_desktop"><img width="100" style="display: flex; align-items: flex-start;" height="60" src="https://img.icons8.com/color/100/netflix.png" alt="netflix"/></a>
+                                  </div>
+                                  <h4 class="number">04</h4>
+                                  <h4><a href="https://aarjjun.github.io/React-Netflix-clone/">Netflix React Clone</a></h4>
+                                  <p>Made a Netflix Clone using react </p>
+
+                              </div>
+                          </div>
+                      </div>
+                      <div class="item">
+                        <div class="card project-card">
+                            <div class="box-wrap">
+                                <div class="icon">
+                                    <span class="fa fa-pencil-square-o"></span>
                                 </div>
+                                <h4 class="number">05</h4>
+                                <h4><a href="#url">More Projects on the Way</a></h4>
+                                <p>Stay tuned for exciting new projects coming soon!</p>
+                                <a href="#read" class="read">Read more</a>
                             </div>
                         </div>
+                    </div>
 
                         <div class="item">
-                            <div class="card">
+                            <div class="card project-card">
                                 <div class="box-wrap">
                                     <div class="icon">
                                       <span class="fa fa-laptop"></span>
@@ -252,7 +233,7 @@
                         </div>
 
                         <div class="item">
-                            <div class="card">
+                          <div class="card project-card">
                                 <div class="box-wrap">
                                     <div class="icon">
                                       <span class="fa fa-area-chart"></span>
@@ -270,62 +251,116 @@
         </div>
     </div>
 </section>
+<!-- ///////////////////////////////////////////////////////////////////////////// -->
+<!-- <div class="py-5 w3l-resume">
+    <div class="container py-lg-5 py-3">
+       
 
+        
+    </div>
+</div> -->
+<div class="things-i-did-section">
+  <h2 class="section-title">Things I Did Last Previously....</h2>
+  <div class="owl-two owl-carousel">
+      <div class="event-item">
+          <a href="https://www.linkedin.com/posts/arjunanoop_hackathonrxperience-slashkey-ieee-activity-7223732792893878272-SoOm?utm_source=share&utm_medium=member_desktop" data-gal="prettyPhoto" class="event-link">
+              <img src="assets/images/SlashKey.jpg" alt="Event 1" class="event-img">
+          </a>
+          <div class="event-description">
+              <h3>Slash Key 3.0</h3>
+              <p>Participated in my first hackathon at NIT Calicut, focusing on disaster management through blind spot analysis. Our team, Hackastic 4, developed a solution to improve communication during disasters like landslides and floods</p>
+          </div>
+      </div>
+
+      <div class="event-item">
+          <a href="https://www.linkedin.com/posts/arjunanoop_nocode-programming-skillbuilding-activity-7239858490649800704-2Fb9?utm_source=share&utm_medium=member_desktop" data-gal="prettyPhoto" class="event-link">
+              <img src="assets/images/Juniorsclass.jpg" alt="Event 2" class="event-img">
+          </a>
+          <div class="event-description">
+              <h3>No Code Tools Class for Freshers</h3>
+              <p>Conducted a session for freshers on No Code Tools, introducing them to project-building without programming knowledge</p>
+          </div>
+      </div>
+
+      <div class="event-item">
+        <a href="https://www.linkedin.com/posts/arjunanoop_googleio-gdgcochin-techconference-activity-7209515626204127232-WdTY?utm_source=share&utm_medium=member_desktop" data-gal="prettyPhoto" class="event-link">
+            <img src="assets/images/Google IO.jpg" alt="Google I/O Kochi" class="event-img">
+        </a>
+        <div class="event-description">
+            <h3>Google I/O Event, Kochi</h3>
+            <p>Participated in the ideathon at Le Meridien, focusing on innovative health solutions.</p>
+        </div>
+    </div>
+    <div class="event-item">
+      <a href="path-to-event-image2.jpg" data-gal="prettyPhoto" class="event-link">
+          <img src="assets/images/GlobalHealthCareIdeathone.jpg" alt="Global Health Care Ideathon" class="event-img">
+      </a>
+      <div class="event-description">
+          <h3>Global Health Care Ideathon</h3>
+          <p>Participated in the Global Health Care Ideathon at Le Meridien, where I collaborated with peers to develop innovative solutions for healthcare challenges</p>
+      </div>
+  </div>
+  
+    
+  </div>
+</div>
+
+
+
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////// -->
 <!--Skills Section -->
 <section class="w3l-services">
   <div class="blog py-5" id="services">
-      <div class="container py-lg-5">
-          <h5 class="title-small text-center"></h5>
-          <h3 class="title-big text-center mb-sm-5 mb-4">My Skills</h3>
-          <div class="row">
-              <div class="col-md-12 mx-auto pr-2">
-                  <div class="owl-two owl-carousel owl-theme">
-                      <div class="item">
-                          <div class="card">
-                             <img src="assets/images/html.jpg" class="htmlskill">
-                          </div>
-                      </div>
-                      <div class="item">
-                        <div class="card">
-                           <img src="assets/images/css.jpg" class="htmlskill">
-                        </div>
-                      </div>                 
-                    <div class="item">
-                      <div class="card">
-                         <img src="assets/images/c+.jpg" class="htmlskill">
-                      </div>
-                    </div>                     
-                  <div class="item">
-                    <div class="card">
-                       <img src="assets/images/javapic.jpg" class="htmlskill">
-                    </div>
-                  </div>
-                  <div class="item">
-                  <div class="card">
-                     <img src="assets/images/js.jpg" class="htmlskill">
-                  </div>
-                  </div>
-                <div class="item">
-                <div class="card">
-                   <img src="assets/images/python.jpg" class="htmlskill">
-                </div>
-                </div>
-                <div class="item">
-                  <div class="card">
-                   <h2>And Many More To Come</h2>
-                  </div>
-              </div>                           
+    <div class="container py-lg-5">
+      <h5 class="title-small text-center"></h5>
+      <h3 class="title-big text-center mb-sm-5 mb-4">My Skills</h3>
+      <div class="row">
+        <div class="col-md-12 mx-auto pr-2">
+          <div class="owl-two owl-carousel owl-theme">
+            <div class="item">
+              <div class="card skill-card">
+                <img src="assets/images/html.jpg" class="htmlskill skill-img" alt="HTML Skill">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card skill-card">
+                <img src="assets/images/css.jpg" class="htmlskill skill-img" alt="CSS Skill">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card skill-card">
+                <img src="assets/images/c+.jpg" class="htmlskill skill-img" alt="C++ Skill">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card skill-card">
+                <img src="assets/images/javapic.jpg" class="htmlskill skill-img" alt="Java Skill">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card skill-card">
+                <img src="assets/images/js.jpg" class="htmlskill skill-img" alt="JavaScript Skill">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card skill-card">
+                <img src="assets/images/python.jpg" class="htmlskill skill-img" alt="Python Skill">
+              </div>
+            </div>
+            <div class="item">
+              <div class="card skill-card">
+                <h2>And Many More To Come</h2>
+              </div>
+            </div>
           </div>
-          <div class="mt-5 text-more">
-              <p class="mt-4 pt-3 sample text-center">
-                  <a href="services.html">View All Services <span class="pl-2 fa fa-long-arrow-right"></span></a>
-              </p>
-          </div>
+        </div>
       </div>
+    </div>
   </div>
-</div>
-</div>
 </section>
+
 <!-- //home page video popup section -->
 
  <!-- freelance hire me -->
@@ -345,16 +380,17 @@
       <div class="row">
         <div class="col-lg-8 footer-left">     
        <p>Click The Social Logo to Directly Slide to my social </p>
-       <p><h6>Design by <a href="https://w3layouts.com">W3layouts</a></h6></p>
+       <!-- <p><h6>Design by <a href="https://w3layouts.com">W3layouts</a></h6></p> -->
         </div>
       
 
         <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
           <ul class="social m-0 p-0">
-            <li><a href="#facebook"><span class="fa fa-facebook-official"></span></a></li>
-            <li><a href="#linkedin"><span class="fa fa-linkedin-square"></span></a></li>
-            <li><a href="#instagram"><span class="fa fa-instagram"></span></a></li>
-            <li><a href="#twitter"><span class="fa fa-twitter"></span></a></li>
+           
+            <li><a href="https://www.linkedin.com/in/arjunanoop/"><span class="fa fa-linkedin-square"></span></a></li>
+            <li><a href="https://www.instagram.com/arjjunn.__/"><span class="fa fa-instagram"></span></a></li>
+            <li><a href="mailto:arjunanoop.codes@gmail.com" class="mail"><span class="fa fa-envelope"></span></a></li>
+           
           </ul>
         </div>
       </div>
@@ -596,7 +632,7 @@
 
 <!-- bootstrap js -->
 <script src="assets/js/bootstrap.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 </body>
 
 </html>
